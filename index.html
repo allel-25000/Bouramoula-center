@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bouramoula Investment Center</title>
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:linear-gradient(135deg,#0b0b0b,#1a1a1a);
+color:#d4af37;
+}
+header{
+text-align:center;
+padding:70px 20px;
+}
+h1{font-size:48px;letter-spacing:2px;}
+p{max-width:800px;margin:auto;color:#ccc;font-size:18px;}
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:14px 24px;
+background:#d4af37;
+color:#000;
+font-weight:bold;
+border-radius:10px;
+text-decoration:none;
+}
+section{
+padding:50px 20px;
+text-align:center;
+}
+.card{
+background:#111;
+margin:20px auto;
+padding:25px;
+max-width:700px;
+border-radius:14px;
+box-shadow:0 0 15px rgba(212,175,55,0.2);
+}
+input,textarea{
+width:90%;
+padding:12px;
+margin:10px 0;
+border-radius:8px;
+border:none;
+}
+form{
+margin-top:20px;
+}
+.small{
+color:#888;
+font-size:14px;
+}
+</style>
+</head>
+<body>
+
+<header>
+<h1>Bouramoula Center</h1>
+<p>Projet de centre commercial moderne – Opportunité d’investissement stratégique en Algérie</p>
+<a class="btn" href="#contact">Investir Maintenant</a>
+</header>
+
+<section>
+<div class="card">
+<h2>📌 Le Projet</h2>
+<p>Centre commercial de 3000m² avec boutiques, restaurants et espaces modernes pour attirer marques et clients.</p>
+</div>
+
+<div class="card">
+<h2>💰 Opportunité</h2>
+<p>Recherche de partenaires et investisseurs privés pour finalisation et exploitation rentable du projet.</p>
+</div>
+
+<div class="card" id="contact">
+<h2>📩 Contact Investisseur</h2>
+<form onsubmit="send(event)">
+<input type="text" placeholder="Nom complet" required>
+<input type="email" placeholder="Email" required>
+<textarea placeholder="Votre message / intérêt..." rows="5"></textarea>
+<button class="btn" type="submit">Envoyer</button>
+</form>
+<p class="small">Ou contactez directement via WhatsApp</p>
+<a class="btn" href="https://wa.me/2137593873">WhatsApp Direct</a>
+</div>
+</section>
+
+<script>
+function send(e){
+e.preventDefault();
+alert("Message envoyé ✔ Nous vous contacterons bientôt.");
+}
+</script>
+
+</body>
+</html>
